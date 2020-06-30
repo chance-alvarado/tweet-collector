@@ -1,5 +1,5 @@
 # tweet-collector
-Simple script to collect tweets from a specified location during some time period.
+Script to collect tweets from a specified location during a set time period.
 
 The purpose of this script is to provide and easy work-around to Twitter's request limits for multi-day searches and simplify writing such data to a file. **This script acts an extension of [Dmitry Mottl](https://pypi.org/user/Mottl/)'s library [GetOldTweets3](https://pypi.org/project/GetOldTweets3/). Please see this library's documentation for more general Twitter scraping scenarios.** 
 
