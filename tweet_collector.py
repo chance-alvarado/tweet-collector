@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 """Tweet collection based on GetOldTweets3.
 
-This simple script.
+The purpose of this script is to provide an easy work-around to
+Twitter's request limits for multi-day searches and simplify
+writing such data to a file. 
+
+For in-depth instructions see the README found in the below
+repository.
 
 Explore this repository at:
     https://github.com/chalvarado96/tweet-collector
