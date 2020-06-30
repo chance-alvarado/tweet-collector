@@ -34,7 +34,7 @@ pip install GetOldTweets3
 
 ### Usage
 
-Based on the user's specified **start date, duration, location,** and **waiting period**, `tweet_collector` creates a local *csv* file containing the following:
+Based on the user's specified **start date, duration, location,** and **waiting period**, `tweet_collector.py` creates a local *csv* file containing the following:
  
  date | text | favorites | retweets | hashtags | 
 ------|------|-----------|----------|----------|
