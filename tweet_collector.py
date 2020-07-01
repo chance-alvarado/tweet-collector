@@ -78,8 +78,8 @@ if not os.path.exists(tweet_dir):
                             )
 
         # Write headers to file
-        writer.writerow(['date', 'text', 'favorites',
-                         'retweets', 'hashtags'
+        writer.writerow(['date', 'username', 'text',
+                         'favorites', 'retweets', 'hashtags'
                          ]
                         )
 
@@ -103,8 +103,8 @@ if not os.path.exists(tweet_dir):
             rows_to_write = []
             for tweet in tweets:
                 rows_to_write.append(
-                    [tweet.date, tweet.text, tweet.favorites,
-                     tweet.retweets, tweet.hashtags
+                    [tweet.date, tweet.username, tweet.text,
+                     tweet.favorites, tweet.retweets, tweet.hashtags
                      ]
                 )
 
