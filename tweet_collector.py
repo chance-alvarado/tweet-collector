@@ -96,7 +96,7 @@ if not os.path.exists(tweet_dir):
                                        .setUntil(til_date) \
                                        .setNear(loc)
 
-            # Searach for tweets
+            # Search for tweets
             tweets = got.manager.TweetManager.getTweets(tweetCriteria)
 
             # Add all tweets to list to write
